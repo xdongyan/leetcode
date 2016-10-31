@@ -1,6 +1,7 @@
 package strarr;
 
-public class LinklistCycle {public boolean hasCycle(ListNode head) {
+public class LinkedistCycle {
+    public boolean hasCycle(ListNode head) {
     ListNode fast= head;
     ListNode slow= head;
     if(head==null) return false;
