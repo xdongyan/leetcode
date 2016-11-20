@@ -19,8 +19,9 @@ public class PathsumII {
 		}
 		if(root.left==null&&root.right==null&&sum==root.val){
 			result.add(new ArrayList(subresult));
-			subresult.remove(subresult.size()-1);
+			
 		}
+		subresult.remove(subresult.size()-1);//remove the last integer
 	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
